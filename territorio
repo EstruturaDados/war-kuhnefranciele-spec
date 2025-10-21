@@ -1,0 +1,6 @@
+// Vamos cadastrar os 5 territorios iniciais do nosso mundo.
+struct territorio {
+char nome [30] 
+char cor [10]
+int tropas 
+};
