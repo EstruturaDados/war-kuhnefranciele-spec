@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 // ============================================================================
 //         PROJETO WAR ESTRUTURADO - DESAFIO DE CÓDIGO
 // ============================================================================
@@ -32,10 +35,50 @@
 // --- Função Principal (main) ---
 // Função principal que orquestra o fluxo do jogo, chamando as outras funções em ordem.
 int main() {
+  
+char nome[30];
+char cor [10];
+int numerodetropas[10];
+
+printf("*** Bem vindo ao jogo***\n");
+printf("Cadastre as tropas\n");
+
+
+
+printf("Numero de tropas\n");
+scanf ("%d, &numerodetropas\n");
+printf("Nome do país\n");
+scanf("%s, &nome\n");
+printf("Cor das Tropas\n");
+scanf("%s, &cor\n");
+
+///////////////////////////////////
+
+printf("Numero de tropas\n");
+scanf ("%d, &numerodetropas\n");
+printf("Nome do país\n");
+scanf("%s,&nome\n");
+printf("Cor das Tropas\n");
+scanf("%s, &cor\n");
+
+///////////////////////////////////
+
+printf("Numero de tropas\n");
+scanf ("%d, &numerodetropas\n");
+printf("Nome do país\n");
+scanf("%s,&nome\n");
+printf("Cor das Tropas\n");
+scanf("%s, &cor\n");
+
+
+
+
+
     // 1. Configuração Inicial (Setup):
     // - Define o locale para português.
     // - Inicializa a semente para geração de números aleatórios com base no tempo atual.
     // - Aloca a memória para o mapa do mundo e verifica se a alocação foi bem-sucedida.
+ 
     // - Preenche os territórios com seus dados iniciais (tropas, donos, etc.).
     // - Define a cor do jogador e sorteia sua missão secreta.
 
@@ -52,6 +95,7 @@ int main() {
     // - Ao final do jogo, libera a memória alocada para o mapa para evitar vazamentos de memória.
 
     return 0;
+    
 }
 
 // --- Implementação das Funções ---
